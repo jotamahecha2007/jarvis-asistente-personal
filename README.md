@@ -52,9 +52,6 @@ docs/      Documento técnico: diagrama de secuencia + esquema relacional
 5. **App**: `cd mobile && npm install && npx expo start`, escanea el QR con Expo Go.
 6. En la app, Ajustes → pon la IP de Tailscale del backend y la clave → "Probar conexión".
 
-Cada carpeta tiene su propio `README.md` con el detalle completo (incluyendo cómo
-dejar el backend corriendo siempre en segundo plano con PM2, y cómo probar la
-ingesta cero-fricción del webhook).
 
 ## Funcionalidades implementadas
 
